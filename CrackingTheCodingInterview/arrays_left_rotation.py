@@ -52,8 +52,6 @@ a = list(map(int, input().strip().split()))     # O(n)
 answer = array_left_rotation(n, a, d)           # O(n) = O(n) + O(1) + O(1) + O(1)
 print(*answer, sep=' ')                         # O(1)
 
-# The algorithm
-
 
 
 
